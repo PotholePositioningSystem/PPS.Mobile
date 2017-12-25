@@ -2,9 +2,9 @@
 
 namespace PPS.Mobile.Views
 {
-    public partial class MainPage : TabbedPage
+    public partial class PotholeMapPage : ContentPage
     {
-        public MainPage()
+        public PotholeMapPage()
         {
             InitializeComponent();
         }
