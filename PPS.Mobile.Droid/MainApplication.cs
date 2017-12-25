@@ -9,6 +9,8 @@ namespace PPS.Mobile.Droid
 {
 	//You can specify additional application information in this attribute
     [Application]
+    [MetaData("com.google.android.maps.v2.API_KEY",
+              Value ="AIzaSyDR0szwU4Lo1M5Nc_dppxPHdTVoo0R5YyU")]
     public class MainApplication : Application, Application.IActivityLifecycleCallbacks
     {
         public MainApplication(IntPtr handle, JniHandleOwnership transer)
