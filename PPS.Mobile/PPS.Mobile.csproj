@@ -48,6 +48,12 @@
     <Compile Include="ViewModels\ChildViewModelBase.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="Events\InitializeTabbedChildrenEvent.cs" />
+    <Compile Include="ViewModels\PotholeMapPageViewModel.cs" />
+    <Compile Include="ViewModels\PotholeListPageViewModel.cs" />
+    <Compile Include="ViewModels\DriverModePageViewModel.cs" />
+    <Compile Include="Views\RootPage.xaml.cs">
+      <DependentUpon>RootPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -63,6 +69,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\DriverModePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RootPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

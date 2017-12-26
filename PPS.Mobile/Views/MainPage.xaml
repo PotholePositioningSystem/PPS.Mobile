@@ -3,7 +3,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
      xmlns:local="clr-namespace:PPS.Mobile.Views"
-    prism:ViewModelLocator.AutowireViewModel="True" x:Class="PPS.Mobile.Views.MainPage" Title="MainPage">
+    Title="PPS"
+    prism:ViewModelLocator.AutowireViewModel="True" x:Class="PPS.Mobile.Views.MainPage">
 	    <TabbedPage.Children>
         <local:PotholeMapPage />
         <local:PotholeListPage />

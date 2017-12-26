@@ -1350,44 +1350,44 @@ namespace PPS.Mobile.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f090053
-			public const int abc_background_cache_hint_selector_material_dark = 2131296339;
+			// aapt resource value: 0x7f090076
+			public const int abc_background_cache_hint_selector_material_dark = 2131296374;
 			
-			// aapt resource value: 0x7f090054
-			public const int abc_background_cache_hint_selector_material_light = 2131296340;
+			// aapt resource value: 0x7f090077
+			public const int abc_background_cache_hint_selector_material_light = 2131296375;
 			
-			// aapt resource value: 0x7f090055
-			public const int abc_btn_colored_borderless_text_material = 2131296341;
+			// aapt resource value: 0x7f090078
+			public const int abc_btn_colored_borderless_text_material = 2131296376;
 			
-			// aapt resource value: 0x7f090056
-			public const int abc_btn_colored_text_material = 2131296342;
+			// aapt resource value: 0x7f090079
+			public const int abc_btn_colored_text_material = 2131296377;
 			
-			// aapt resource value: 0x7f090057
-			public const int abc_color_highlight_material = 2131296343;
+			// aapt resource value: 0x7f09007a
+			public const int abc_color_highlight_material = 2131296378;
 			
-			// aapt resource value: 0x7f090058
-			public const int abc_hint_foreground_material_dark = 2131296344;
+			// aapt resource value: 0x7f09007b
+			public const int abc_hint_foreground_material_dark = 2131296379;
 			
-			// aapt resource value: 0x7f090059
-			public const int abc_hint_foreground_material_light = 2131296345;
+			// aapt resource value: 0x7f09007c
+			public const int abc_hint_foreground_material_light = 2131296380;
 			
 			// aapt resource value: 0x7f09000c
 			public const int abc_input_method_navigation_guard = 2131296268;
 			
-			// aapt resource value: 0x7f09005a
-			public const int abc_primary_text_disable_only_material_dark = 2131296346;
+			// aapt resource value: 0x7f09007d
+			public const int abc_primary_text_disable_only_material_dark = 2131296381;
 			
-			// aapt resource value: 0x7f09005b
-			public const int abc_primary_text_disable_only_material_light = 2131296347;
+			// aapt resource value: 0x7f09007e
+			public const int abc_primary_text_disable_only_material_light = 2131296382;
 			
-			// aapt resource value: 0x7f09005c
-			public const int abc_primary_text_material_dark = 2131296348;
+			// aapt resource value: 0x7f09007f
+			public const int abc_primary_text_material_dark = 2131296383;
 			
-			// aapt resource value: 0x7f09005d
-			public const int abc_primary_text_material_light = 2131296349;
+			// aapt resource value: 0x7f090080
+			public const int abc_primary_text_material_light = 2131296384;
 			
-			// aapt resource value: 0x7f09005e
-			public const int abc_search_url_text = 2131296350;
+			// aapt resource value: 0x7f090081
+			public const int abc_search_url_text = 2131296385;
 			
 			// aapt resource value: 0x7f09000d
 			public const int abc_search_url_text_normal = 2131296269;
@@ -1398,29 +1398,32 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f09000f
 			public const int abc_search_url_text_selected = 2131296271;
 			
-			// aapt resource value: 0x7f09005f
-			public const int abc_secondary_text_material_dark = 2131296351;
+			// aapt resource value: 0x7f090082
+			public const int abc_secondary_text_material_dark = 2131296386;
 			
-			// aapt resource value: 0x7f090060
-			public const int abc_secondary_text_material_light = 2131296352;
+			// aapt resource value: 0x7f090083
+			public const int abc_secondary_text_material_light = 2131296387;
 			
-			// aapt resource value: 0x7f090061
-			public const int abc_tint_btn_checkable = 2131296353;
+			// aapt resource value: 0x7f090084
+			public const int abc_tint_btn_checkable = 2131296388;
 			
-			// aapt resource value: 0x7f090062
-			public const int abc_tint_default = 2131296354;
+			// aapt resource value: 0x7f090085
+			public const int abc_tint_default = 2131296389;
 			
-			// aapt resource value: 0x7f090063
-			public const int abc_tint_edittext = 2131296355;
+			// aapt resource value: 0x7f090086
+			public const int abc_tint_edittext = 2131296390;
 			
-			// aapt resource value: 0x7f090064
-			public const int abc_tint_seek_thumb = 2131296356;
+			// aapt resource value: 0x7f090087
+			public const int abc_tint_seek_thumb = 2131296391;
 			
-			// aapt resource value: 0x7f090065
-			public const int abc_tint_spinner = 2131296357;
+			// aapt resource value: 0x7f090088
+			public const int abc_tint_spinner = 2131296392;
 			
-			// aapt resource value: 0x7f090066
-			public const int abc_tint_switch_track = 2131296358;
+			// aapt resource value: 0x7f090089
+			public const int abc_tint_switch_track = 2131296393;
+			
+			// aapt resource value: 0x7f090056
+			public const int accent = 2131296342;
 			
 			// aapt resource value: 0x7f090010
 			public const int accent_material_dark = 2131296272;
@@ -1476,8 +1479,68 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f09000b
 			public const int cardview_shadow_start_color = 2131296267;
 			
+			// aapt resource value: 0x7f09006a
+			public const int color_alizarin = 2131296362;
+			
+			// aapt resource value: 0x7f090062
+			public const int color_amethyst = 2131296354;
+			
+			// aapt resource value: 0x7f09006f
+			public const int color_asbestos = 2131296367;
+			
+			// aapt resource value: 0x7f090061
+			public const int color_belize_hole = 2131296353;
+			
+			// aapt resource value: 0x7f090068
+			public const int color_carrot = 2131296360;
+			
+			// aapt resource value: 0x7f09006c
+			public const int color_clouds = 2131296364;
+			
+			// aapt resource value: 0x7f09006e
+			public const int color_concrete = 2131296366;
+			
+			// aapt resource value: 0x7f09005e
+			public const int color_emerald = 2131296350;
+			
+			// aapt resource value: 0x7f09005d
+			public const int color_green_sea = 2131296349;
+			
+			// aapt resource value: 0x7f090065
+			public const int color_midnight_blue = 2131296357;
+			
+			// aapt resource value: 0x7f09005f
+			public const int color_nephritis = 2131296351;
+			
 			// aapt resource value: 0x7f090067
-			public const int common_google_signin_btn_text_dark = 2131296359;
+			public const int color_orange = 2131296359;
+			
+			// aapt resource value: 0x7f090060
+			public const int color_peter_river = 2131296352;
+			
+			// aapt resource value: 0x7f09006b
+			public const int color_pomegranate = 2131296363;
+			
+			// aapt resource value: 0x7f090069
+			public const int color_pumpkin = 2131296361;
+			
+			// aapt resource value: 0x7f09006d
+			public const int color_silver = 2131296365;
+			
+			// aapt resource value: 0x7f090066
+			public const int color_sun_flower = 2131296358;
+			
+			// aapt resource value: 0x7f09005c
+			public const int color_turquoise = 2131296348;
+			
+			// aapt resource value: 0x7f090064
+			public const int color_wet_asphalt = 2131296356;
+			
+			// aapt resource value: 0x7f090063
+			public const int color_wisteria = 2131296355;
+			
+			// aapt resource value: 0x7f09008a
+			public const int common_google_signin_btn_text_dark = 2131296394;
 			
 			// aapt resource value: 0x7f090000
 			public const int common_google_signin_btn_text_dark_default = 2131296256;
@@ -1491,8 +1554,8 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f090003
 			public const int common_google_signin_btn_text_dark_pressed = 2131296259;
 			
-			// aapt resource value: 0x7f090068
-			public const int common_google_signin_btn_text_light = 2131296360;
+			// aapt resource value: 0x7f09008b
+			public const int common_google_signin_btn_text_light = 2131296395;
 			
 			// aapt resource value: 0x7f090004
 			public const int common_google_signin_btn_text_light_default = 2131296260;
@@ -1506,14 +1569,14 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f090007
 			public const int common_google_signin_btn_text_light_pressed = 2131296263;
 			
-			// aapt resource value: 0x7f090069
-			public const int common_google_signin_btn_tint = 2131296361;
+			// aapt resource value: 0x7f09008c
+			public const int common_google_signin_btn_tint = 2131296396;
 			
 			// aapt resource value: 0x7f090048
 			public const int design_bottom_navigation_shadow_color = 2131296328;
 			
-			// aapt resource value: 0x7f09006a
-			public const int design_error = 2131296362;
+			// aapt resource value: 0x7f09008d
+			public const int design_error = 2131296397;
 			
 			// aapt resource value: 0x7f090049
 			public const int design_fab_shadow_end_color = 2131296329;
@@ -1539,8 +1602,8 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f090050
 			public const int design_snackbar_background_color = 2131296336;
 			
-			// aapt resource value: 0x7f09006b
-			public const int design_tint_password_toggle = 2131296363;
+			// aapt resource value: 0x7f09008e
+			public const int design_tint_password_toggle = 2131296398;
 			
 			// aapt resource value: 0x7f09001e
 			public const int dim_foreground_disabled_material_dark = 2131296286;
@@ -1553,6 +1616,9 @@ namespace PPS.Mobile.Droid
 			
 			// aapt resource value: 0x7f090021
 			public const int dim_foreground_material_light = 2131296289;
+			
+			// aapt resource value: 0x7f09005a
+			public const int divider = 2131296346;
 			
 			// aapt resource value: 0x7f090022
 			public const int error_color_material = 2131296290;
@@ -1568,6 +1634,15 @@ namespace PPS.Mobile.Droid
 			
 			// aapt resource value: 0x7f090026
 			public const int highlighted_text_material_light = 2131296294;
+			
+			// aapt resource value: 0x7f090070
+			public const int icon_gold = 2131296368;
+			
+			// aapt resource value: 0x7f090059
+			public const int icons = 2131296345;
+			
+			// aapt resource value: 0x7f090075
+			public const int item_divider = 2131296373;
 			
 			// aapt resource value: 0x7f090027
 			public const int material_blue_grey_800 = 2131296295;
@@ -1614,17 +1689,29 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f090047
 			public const int notification_material_background_media_default_color = 2131296327;
 			
+			// aapt resource value: 0x7f090053
+			public const int primary = 2131296339;
+			
+			// aapt resource value: 0x7f090054
+			public const int primary_dark = 2131296340;
+			
 			// aapt resource value: 0x7f090033
 			public const int primary_dark_material_dark = 2131296307;
 			
 			// aapt resource value: 0x7f090034
 			public const int primary_dark_material_light = 2131296308;
 			
+			// aapt resource value: 0x7f090055
+			public const int primary_light = 2131296341;
+			
 			// aapt resource value: 0x7f090035
 			public const int primary_material_dark = 2131296309;
 			
 			// aapt resource value: 0x7f090036
 			public const int primary_material_light = 2131296310;
+			
+			// aapt resource value: 0x7f090057
+			public const int primary_text = 2131296343;
 			
 			// aapt resource value: 0x7f090037
 			public const int primary_text_default_material_dark = 2131296311;
@@ -1644,6 +1731,21 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f09003c
 			public const int ripple_material_light = 2131296316;
 			
+			// aapt resource value: 0x7f090073
+			public const int scores_bronze = 2131296371;
+			
+			// aapt resource value: 0x7f090074
+			public const int scores_default = 2131296372;
+			
+			// aapt resource value: 0x7f090071
+			public const int scores_gold = 2131296369;
+			
+			// aapt resource value: 0x7f090072
+			public const int scores_silver = 2131296370;
+			
+			// aapt resource value: 0x7f090058
+			public const int secondary_text = 2131296344;
+			
 			// aapt resource value: 0x7f09003d
 			public const int secondary_text_default_material_dark = 2131296317;
 			
@@ -1662,11 +1764,11 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f090042
 			public const int switch_thumb_disabled_material_light = 2131296322;
 			
-			// aapt resource value: 0x7f09006c
-			public const int switch_thumb_material_dark = 2131296364;
+			// aapt resource value: 0x7f09008f
+			public const int switch_thumb_material_dark = 2131296399;
 			
-			// aapt resource value: 0x7f09006d
-			public const int switch_thumb_material_light = 2131296365;
+			// aapt resource value: 0x7f090090
+			public const int switch_thumb_material_light = 2131296400;
 			
 			// aapt resource value: 0x7f090043
 			public const int switch_thumb_normal_material_dark = 2131296323;
@@ -1679,6 +1781,9 @@ namespace PPS.Mobile.Droid
 			
 			// aapt resource value: 0x7f090046
 			public const int tooltip_background_light = 2131296326;
+			
+			// aapt resource value: 0x7f09005b
+			public const int white = 2131296347;
 			
 			static Color()
 			{
@@ -3483,14 +3588,14 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f0b006a
 			public const int list_item = 2131427434;
 			
-			// aapt resource value: 0x7f0b00d1
-			public const int masked = 2131427537;
+			// aapt resource value: 0x7f0b00d3
+			public const int masked = 2131427539;
 			
 			// aapt resource value: 0x7f0b00c2
 			public const int media_actions = 2131427522;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int message = 2131427535;
+			// aapt resource value: 0x7f0b00d1
+			public const int message = 2131427537;
 			
 			// aapt resource value: 0x7f0b003b
 			public const int middle = 2131427387;
@@ -3702,6 +3807,9 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f0b002f
 			public const int showTitle = 2131427375;
 			
+			// aapt resource value: 0x7f0b00cf
+			public const int sliding_tabs = 2131427535;
+			
 			// aapt resource value: 0x7f0b0094
 			public const int smallLabel = 2131427476;
 			
@@ -3783,6 +3891,9 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f0b0078
 			public const int title_template = 2131427448;
 			
+			// aapt resource value: 0x7f0b00d0
+			public const int toolbar = 2131427536;
+			
 			// aapt resource value: 0x7f0b0048
 			public const int top = 2131427400;
 			
@@ -3819,8 +3930,8 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f0b0016
 			public const int view_offset_helper = 2131427350;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int visible = 2131427536;
+			// aapt resource value: 0x7f0b00d2
+			public const int visible = 2131427538;
 			
 			// aapt resource value: 0x7f0b00b4
 			public const int volume_item_container = 2131427508;
@@ -4120,7 +4231,13 @@ namespace PPS.Mobile.Droid
 			public const int support_simple_spinner_dropdown_item = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int tooltip = 2130903106;
+			public const int tabs = 2130903106;
+			
+			// aapt resource value: 0x7f030043
+			public const int toolbar = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int tooltip = 2130903108;
 			
 			static Layout()
 			{
@@ -4402,6 +4519,12 @@ namespace PPS.Mobile.Droid
 			
 			// aapt resource value: 0x7f0c0178
 			public const int Animation_Design_BottomSheetDialog = 2131493240;
+			
+			// aapt resource value: 0x7f0c0199
+			public const int AppTheme = 2131493273;
+			
+			// aapt resource value: 0x7f0c019a
+			public const int AppTheme_Base = 2131493274;
 			
 			// aapt resource value: 0x7f0c00b1
 			public const int Base_AlertDialog_AppCompat = 2131493041;
@@ -4904,6 +5027,9 @@ namespace PPS.Mobile.Droid
 			// aapt resource value: 0x7f0c000e
 			public const int CardView_Light = 2131492878;
 			
+			// aapt resource value: 0x7f0c019b
+			public const int InputLayout = 2131493275;
+			
 			// aapt resource value: 0x7f0c002d
 			public const int Platform_AppCompat = 2131492909;
 			
@@ -5350,6 +5476,9 @@ namespace PPS.Mobile.Droid
 			
 			// aapt resource value: 0x7f0c0008
 			public const int ThemeOverlay_MediaRouter_Light = 2131492872;
+			
+			// aapt resource value: 0x7f0c019c
+			public const int Toolbar_TitleText = 2131493276;
 			
 			// aapt resource value: 0x7f0c0127
 			public const int Widget_AppCompat_ActionBar = 2131493159;
