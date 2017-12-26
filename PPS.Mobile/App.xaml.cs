@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using DryIoc;
 using Prism.DryIoc;
 using PPS.Mobile.Views;
+using PPS.Mobile.Data.Contracts;
+using PPS.Mobile.Data.Infrastructure;
 
 namespace PPS.Mobile
 {
@@ -23,7 +25,7 @@ namespace PPS.Mobile
         {
             Container.RegisterTypeForNavigation<RootPage>();
             Container.RegisterTypeForNavigation<MainPage>();
-
+            Container.Register<IDataService,DataService>();
         }
     }
 }
