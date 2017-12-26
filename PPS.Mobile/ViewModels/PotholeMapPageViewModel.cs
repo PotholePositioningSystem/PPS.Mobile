@@ -13,10 +13,7 @@ namespace PPS.Mobile.ViewModels
             Title = "Pothole Map";
             this.service = service;
 
-            var issue = new Issue();
-            issue.SubmittedOn = DateTime.UtcNow;
-
-            service.AddIssue(issue);
+          
 
         }
     }
