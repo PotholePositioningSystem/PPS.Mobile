@@ -10,6 +10,7 @@ using Android.OS;
 
 using Prism.DryIoc;
 using DryIoc;
+using NControl.Droid;
 
 namespace PPS.Mobile.Droid
 {
@@ -22,6 +23,7 @@ namespace PPS.Mobile.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             Xamarin.FormsGoogleMaps.Init(this, bundle); // initialize for Xamarin.Forms.GoogleMaps
+            NControlViewRenderer.Init();
 
 
             TabLayoutResource = Resource.Layout.tabs;

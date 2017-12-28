@@ -40,7 +40,13 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Resources/Images.xcassets/AppIcons.appiconset</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
 	<key>CFBundleName</key>
 	<string>PPS</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/FontAwesome.ttf</string>
+	</array>
 </dict>
 </plist>

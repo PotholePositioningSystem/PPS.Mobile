@@ -7,6 +7,7 @@ using UIKit;
 
 using Prism.DryIoc;
 using DryIoc;
+using NControl.iOS;
 
 namespace PPS.Mobile.iOS
 {
@@ -26,6 +27,8 @@ namespace PPS.Mobile.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            NControlViewRenderer.Init();
 
             Xamarin.FormsGoogleMaps.Init("AIzaSyD3VBnviQxELZZlAItj5mkoVKozG-5yVQI");
 
