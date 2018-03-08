@@ -32,7 +32,9 @@ namespace PPS.Mobile.iOS
 
             Xamarin.FormsGoogleMaps.Init("AIzaSyD3VBnviQxELZZlAItj5mkoVKozG-5yVQI");
 
-            LoadApplication(new App(new iOSInitializer()));
+          LoadApplication(new App(new iOSInitializer()));
+
+          
 
             return base.FinishedLaunching(app, options);
         }

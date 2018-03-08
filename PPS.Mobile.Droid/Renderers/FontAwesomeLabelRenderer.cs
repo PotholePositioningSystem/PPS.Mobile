@@ -1,4 +1,5 @@
 ﻿using System;
+using Android.Graphics;
 using PPS.Mobile.Controls;
 using PPS.Mobile.Droid.Renderers;
 using Xamarin.Forms;

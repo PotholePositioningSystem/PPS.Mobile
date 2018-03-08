@@ -11,6 +11,9 @@ using Android.OS;
 using Prism.DryIoc;
 using DryIoc;
 using NControl.Droid;
+using UXDivers.Gorilla;
+using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
 
 namespace PPS.Mobile.Droid
 {
@@ -30,8 +33,20 @@ namespace PPS.Mobile.Droid
             ToolbarResource = Resource.Layout.toolbar;
 
             LoadApplication(new App(new AndroidInitializer()));
+
+
+      
+          
+        }
+
+        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+        {
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
+
+  
 
     public class AndroidInitializer : IPlatformInitializer
     {
