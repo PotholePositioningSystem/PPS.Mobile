@@ -8,9 +8,6 @@ namespace PPS.Mobile.ViewModels
 {
     public class AddPotholePageViewModel : BaseViewModel
     {
-        public AddPotholePageViewModel()
-        {
 
-        }
     }
 }

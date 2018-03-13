@@ -12,7 +12,7 @@
                                       VerticalOptions="FillAndExpand"
                                       />
 
-                        <controls:CircularButtonControl FillColor="Teal" AbsoluteLayout.LayoutFlags="PositionProportional"
+                        <controls:CircularButtonControl Command="{Binding PotholeNavigateCommand}" x:Name="AddPothole" FillColor="Teal" AbsoluteLayout.LayoutFlags="PositionProportional"
                             AbsoluteLayout.LayoutBounds="1.0,1.0,-1,-1"
                             Margin="10" HeightRequest="70" WidthRequest="70"/>
                 

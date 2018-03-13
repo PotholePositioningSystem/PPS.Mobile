@@ -18,7 +18,7 @@ namespace PPS.Mobile
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("RootPage/UserProfilePage");
+            NavigationService.NavigateAsync("RootPage/MainPage");
         }
 
         protected override void RegisterTypes()
@@ -26,6 +26,7 @@ namespace PPS.Mobile
             Container.RegisterTypeForNavigation<RootPage>();
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<UserProfilePage>();
+            Container.RegisterTypeForNavigation<AddPotholePage>();
             Container.Register<IDataService, DataService>();
         }
     }
