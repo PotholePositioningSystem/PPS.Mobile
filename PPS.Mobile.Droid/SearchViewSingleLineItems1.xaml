@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input"
+             xmlns:telerikDataControls="clr-namespace:Telerik.XamarinForms.DataControls;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:telerikListView="clr-namespace:Telerik.XamarinForms.DataControls.ListView;assembly=Telerik.XamarinForms.DataControls"
+             xmlns:local="clr-namespace:PPS.Mobile.Droid"
+             Title="ListView With AutoComplete"
+             x:Class="PPS.Mobile.Droid.SearchViewSingleLineItems1">
+  <ContentPage.BindingContext>
+    <local:ViewModel />
+  </ContentPage.BindingContext>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="40" />
+      <RowDefinition Height="Auto" />
+    </Grid.RowDefinitions>
+    <telerikInput:RadAutoComplete Grid.Row="0"
+                                  x:Name="AutoComplete"
+                                  ItemsSource="{Binding Items}"
+                                  TextSearchPath="Name"
+                                  CompletionMode="Contains"
+                                  Watermark="Search"
+                                  ShowSuggestionView="False" />
+    <telerikDataControls:RadListView Grid.Row="1" ItemsSource="{Binding FilteredItems, Source={Reference AutoComplete}}">
+      <telerikDataControls:RadListView.LayoutDefinition>
+        <telerikListView:ListViewLinearLayout ItemLength="70"/>
+      </telerikDataControls:RadListView.LayoutDefinition>
+      <telerikDataControls:RadListView.ItemTemplate>
+        <DataTemplate>
+          <telerikListView:ListViewTemplateCell>
+            <telerikListView:ListViewTemplateCell.View>
+              <Grid HeightRequest="70">
+                <Grid>
+                  <Grid.Margin>
+                    <OnPlatform x:TypeArguments="Thickness" Android="16" iOS="15" WinPhone="16" />
+                  </Grid.Margin>
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                  </Grid.ColumnDefinitions>
+                  <Image Grid.Column="0" Source="{Binding ImagePath}" WidthRequest="40">
+                    <Image.Margin>
+                      <OnPlatform x:TypeArguments="Thickness" Android="0,0,16,0" iOS="0,0,15,0" WinPhone="0,0,16,0" />
+                    </Image.Margin>
+                  </Image>
+                  <Label Grid.Column="1" Text="{Binding ShortTitle}" VerticalTextAlignment="Center" HorizontalTextAlignment="Start">
+                    <Label.FontSize>
+                      <OnPlatform x:TypeArguments="x:Double" Android="16" iOS="15" WinPhone="15" />
+                    </Label.FontSize>
+                    <Label.FontFamily>
+                      <OnPlatform x:TypeArguments="x:String">
+                        <OnPlatform.WinPhone>Segoe UI Semibold</OnPlatform.WinPhone>
+                      </OnPlatform>
+                    </Label.FontFamily>
+                  </Label>
+                </Grid>
+              </Grid>
+            </telerikListView:ListViewTemplateCell.View>
+          </telerikListView:ListViewTemplateCell>
+        </DataTemplate>
+      </telerikDataControls:RadListView.ItemTemplate>
+    </telerikDataControls:RadListView>
+  </Grid>
+</ContentPage>
