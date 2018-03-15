@@ -72,6 +72,7 @@
       <DependentUpon>UserProfilePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\IssueFormViewModel.cs" />
+    <Compile Include="Utils\UserPropertyDataSourceProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -237,6 +238,9 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\ActivitySampleData\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.2.2.0\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.2.2.0\build\portable-net+sl+win+wpa+wp\Fody.targets')" />

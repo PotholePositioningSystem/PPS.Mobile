@@ -9,6 +9,7 @@ namespace PPS.Mobile.ViewModels
         int severity;
         string comment;
         string location;
+
         [ReadOnly]
         DateTime submittedOn = DateTime.UtcNow;
 
@@ -69,6 +70,42 @@ namespace PPS.Mobile.ViewModels
                 }
             }
         }
+
+        [DisplayOptions(Position = 3, ColumnSpan = 2, PlaceholderText = "Comment", Group = "Issue")]
+        public string Comment
+        {
+            get
+            {
+                return this.comment;
+            }
+            set
+            {
+                if (this.comment != value)
+                {
+                    this.comment = value;
+                    this.OnPropertyChanged();
+                }
+            }
+        }
+
+        [DisplayOptions(Header = "Severity", Position = 4, ColumnPosition = 1, PlaceholderText = "How would you rank the severity of this pothole from 1-10?", Group = "Issue")]
+        [DataSourceKey(nameof(Severity))]
+        public int Severity
+        {
+            get
+            {
+                return this.severity;
+            }
+            set
+            {
+                if (this.severity != value)
+                {
+                    this.severity = value;
+                    this.OnPropertyChanged();
+                }
+            }
+        }
+
 
 
 
