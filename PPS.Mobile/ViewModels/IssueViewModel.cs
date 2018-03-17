@@ -1,10 +1,11 @@
 ﻿using System;
+using System.ComponentModel;
 using Telerik.XamarinForms.Common;
 using Telerik.XamarinForms.Common.DataAnnotations;
 
 namespace PPS.Mobile.ViewModels
 {
-    public class IssueFormViewModel:NotifyPropertyChangedBase
+    public class IssueViewModel:NotifyPropertyChangedBase
     {
         int severity;
         string comment;
@@ -105,13 +106,6 @@ namespace PPS.Mobile.ViewModels
                 }
             }
         }
-
-
-
-
-
-
-
 
     }
 }

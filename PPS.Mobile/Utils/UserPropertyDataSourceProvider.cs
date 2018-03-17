@@ -10,7 +10,7 @@ namespace PPS.Mobile.Utils
     {
         public override IList GetSourceForKey(object key)
         {
-            if (key.ToString().Equals(nameof(IssueFormViewModel.Severity)))
+            if (key.ToString().Equals(nameof(IssueViewModel.Severity)))
             {
                 return Enumerable.Range(1, 10).ToList();
             }

@@ -67,12 +67,12 @@
     <Compile Include="Views\AddPotholePage.xaml.cs">
       <DependentUpon>AddPotholePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\AddPotholePageViewModel.cs" />
     <Compile Include="Views\UserProfilePage.xaml.cs">
       <DependentUpon>UserProfilePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\IssueFormViewModel.cs" />
+    <Compile Include="ViewModels\IssueViewModel.cs" />
     <Compile Include="Utils\UserPropertyDataSourceProvider.cs" />
+    <Compile Include="ViewModels\AddPotholePageViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">

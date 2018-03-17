@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns:telerikInput="clr-namespace:Telerik.XamarinForms.Input;assembly=Telerik.XamarinForms.Input" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms" xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms" prism:ViewModelLocator.AutowireViewModel="True" x:Class="PPS.Mobile.Views.AddPotholePage">
-    <telerikInput:RadDataForm Source="{Binding DataObject}" x:Name="dataForm" />
+    <telerikInput:RadDataForm Source="{Binding FormSource}"
+                                      Grid.Row="1"
+                                      CommitMode="Manual"
+                                      ValidationMode="Immediate" x:Name="dataForm" />
 </ContentPage> 
